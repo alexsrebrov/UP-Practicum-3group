@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\Stefan\u0027s Personal\\UNI SU SI\\UP-Practicum-3group\\Week02\\solutions\\SecondWeekSolutions\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EB5AE5B1-D4D1-4814-8AAB-E142EBE7C5B0}|SecondWeekSolutions\\SecondWeekSolutions.vcxproj|C:\\Users\\PC\\Documents\\Stefan\u0027s Personal\\UNI SU SI\\UP-Practicum-3group\\Week02\\solutions\\SecondWeekSolutions\\SecondWeekSolutions\\SecondWeekSolutions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EB5AE5B1-D4D1-4814-8AAB-E142EBE7C5B0}|SecondWeekSolutions\\SecondWeekSolutions.vcxproj|solutionrelative:SecondWeekSolutions\\SecondWeekSolutions.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SecondWeekSolutions.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\Documents\\Stefan\u0027s Personal\\UNI SU SI\\UP-Practicum-3group\\Week02\\solutions\\SecondWeekSolutions\\SecondWeekSolutions\\SecondWeekSolutions.cpp",
+              "RelativeDocumentMoniker": "SecondWeekSolutions\\SecondWeekSolutions.cpp",
+              "ToolTip": "C:\\Users\\PC\\Documents\\Stefan\u0027s Personal\\UNI SU SI\\UP-Practicum-3group\\Week02\\solutions\\SecondWeekSolutions\\SecondWeekSolutions\\SecondWeekSolutions.cpp",
+              "RelativeToolTip": "SecondWeekSolutions\\SecondWeekSolutions.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAALAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-16T18:02:05.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
