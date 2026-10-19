@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="1-chetnost/1-chetnost.vcxproj" Id="8c4ebaf3-9f42-4a71-ae88-eb35162f180a" />
+</Solution>

@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ivana\\source\\repos\\UP-Practicum-3group\\Week02\\tasks\\4-valutenKurs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E00FE5E8-3B9E-4C53-A796-A9F64BA61A83}|4-valutenKurs\\4-valutenKurs.vcxproj|C:\\Users\\Ivana\\source\\repos\\UP-Practicum-3group\\Week02\\tasks\\4-valutenKurs\\4-valutenKurs\\4-valutenKurs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E00FE5E8-3B9E-4C53-A796-A9F64BA61A83}|4-valutenKurs\\4-valutenKurs.vcxproj|solutionrelative:4-valutenKurs\\4-valutenKurs.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "4-valutenKurs.cpp",
+              "DocumentMoniker": "C:\\Users\\Ivana\\source\\repos\\UP-Practicum-3group\\Week02\\tasks\\4-valutenKurs\\4-valutenKurs\\4-valutenKurs.cpp",
+              "RelativeDocumentMoniker": "4-valutenKurs\\4-valutenKurs.cpp",
+              "ToolTip": "C:\\Users\\Ivana\\source\\repos\\UP-Practicum-3group\\Week02\\tasks\\4-valutenKurs\\4-valutenKurs\\4-valutenKurs.cpp",
+              "RelativeToolTip": "4-valutenKurs\\4-valutenKurs.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-19T08:38:01.194Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

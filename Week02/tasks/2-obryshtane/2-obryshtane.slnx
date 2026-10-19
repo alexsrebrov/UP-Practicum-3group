@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="2-obryshtane/2-obryshtane.vcxproj" Id="fee9bff7-7d9b-4864-84ec-82b8626a2df0" />
+</Solution>
