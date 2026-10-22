@@ -3,7 +3,11 @@
 int main(){
 
     //Task 1
-
+    // int number;
+    // std::cin >> number;
+    // if (number > 0)std::cout << "The number is positive";
+    // else if (number < 0)std::cout << "The number is negative";
+    // else std::cout << "The number is zero";
     
 
     // Task 2
