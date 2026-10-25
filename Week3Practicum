@@ -1,0 +1,340 @@
+#include <iostream>
+
+int main()
+{
+
+	//1 Positive number check
+	std::cout << "Task 1";
+	std::cout << "\nEnter a number:";
+	double i;
+	std::cin >> i;
+	if (i > 0) {
+		std::cout << "The number is positive.";
+	}
+	else if (i < 0) {
+		std::cout << "The number is negative.";
+	}
+	else {
+		std::cout << "The number is zero.";
+	}
+
+
+
+	//2 Discount calculator 
+	   std::cout << "\nTask 2";
+	  std::cout << "\nDISCOUNT CALCULATOR\n";
+	  std::cout << "Enter the price of the product: ";
+	  double price;
+	  std::cin >> price;
+	  if (price > 100) {
+	  	std::cout<<price * 0.9;
+	  }
+	   else if (price > 250) {
+	  	price * 0.8;
+	  }
+	   else {
+	  	std::cout << price;
+	  }
+
+
+
+	  //3 Even or odd
+	   std::cout<<"\nTask 3";
+	  std::cout << "\nEnter a number:";
+	  int number;
+	  std::cin >> number;
+	  if (number % 2 == 0) {
+	  	std::cout<<"even";
+	  }
+	  else if (number % 2 == 1) {
+	  	std::cout << "odd";
+	  }
+
+
+
+	  //4 voting eligibility
+    std::cout << "\nTask 4";
+   std::cout << "\nenter your age:\n";
+   int age;
+   std::cin >> age;
+   if (age >= 18) {
+   	std::cout << "you are eligible to vote";
+   }
+   else {
+   	std::cout << "you are not eligible to vote";
+   }
+
+
+
+
+   //5 largest and smallest of 3
+    std::cout << "\nTask 5";
+   std::cout << "\nenter 3 separate numbers:\n";
+   double num1, num2, num3;
+   std::cin >> num1 >> num2 >> num3;
+   double min = num1;
+   if (num2 < min) {
+   	min = num2;
+   }
+   if (num3 < min)
+   {
+   	min = num3;
+   }
+   std::cout << "Smallest is: " << min << "\n";
+   double max = num1;
+   if (num2 > max) {
+   	max = num2;
+   }
+   if (num3 > max) {
+   	max = num3;
+   }
+   std::cout << "Largest is: " << max << "\n";
+
+
+
+
+   // 6 SWITCH
+	std::cout << "\nTask 6";
+	std::cout << "\nEnter a character: ";
+	char c;
+	std::cin >> c;
+	switch (c) {
+	case 'a':
+	case 'e':
+	case 'i':
+	case 'o':
+	case 'u':
+	case 'A':
+	case 'E':
+	case 'I':
+	case 'O':
+	case 'U':
+		std::cout << "The character is a vowel.";
+		break;
+	default:
+		std::cout << "The character is not a vowel.";
+	}
+
+
+
+
+
+
+	//7 day of the week
+	 std::cout << "\nTask 7";
+	std::cout << "\nEnter a number (1-7) for the day of the week:";
+	int day;
+	std::cin >> day;
+	switch (day)
+	{
+	case 1:
+		std::cout << "Monday";
+		break;
+	case 2:
+		std::cout << "Tuesday";
+		break;
+	case 3:
+		std::cout << "Wednesday";
+		break;
+	case 4:
+		std::cout << "Thursday";
+		break;
+	case 5:
+		std::cout << "Friday";
+		break;
+	case 6:
+		std::cout << "Saturday";
+		break;
+	case 7:
+		std::cout << "Sunday";
+		break;
+	default:
+		std::cout << "The number doestn't correspond to a day of the week";
+	}
+
+	
+	if (day == 1) {
+		std::cout << "Monday";
+	}
+	else if (day == 2) {
+		std::cout << "Tuesday";
+	}
+	else  if (day == 3){
+		std::cout << "Wednesday";
+		}
+	else if (day == 4) {
+		std::cout << "Thursday";
+	}
+	else if (day == 5) {
+		std::cout << "Friday";
+	}
+	else if (day == 6) {
+		std::cout << "Saturday";
+	}
+	else if (day == 7) {
+		std::cout << "Sunday";
+	}
+	else {
+		std::cout << "The number doestn't correspond to a day of the week";
+	}
+
+
+	// 8 simple calculator
+	std::cout << "\nTask 8";
+	std::cout << "\nEnter two numbers and an operator (+,-,*,/):";
+	double n1, n2, result;
+	char op;
+	std::cin >> n1>> n2>> op;
+	switch (op) {
+	case '+':
+		result = n1 + n2;
+		break;
+	case '-':
+		result = n1 - n2;
+		break;
+	case '*':
+		result = n1 * n2;
+		break;
+	case '/':
+		if (n2 != 0) {
+			result = n1 / n2;
+		}
+		else {
+			std::cout << "Error: Division by zero is not allowed.";
+		}
+		break;
+	default:
+		std::cout << "Error: Invalid operator.";
+		break;
+	}
+
+	std::cout << "Result: " << result << "\n";
+
+
+
+	//9. Check Palindrome
+	std::cout << "\nTask 9";
+	std::cout<<"Enter a 5-digit number:";
+	int num;
+	std::cin >> num;
+	int ost5 = num % 10;
+	int res5 = num / 10;
+	int ost4 = res5 % 10;
+	int res4 = res5 / 10;
+	int ost3 = res4 % 10;
+	int res3 = res4 / 10;	
+	int ost2 = res3 % 10;
+	int res2 = res3 / 10;
+	int ost1 = res2;
+	std::cout << ost5 << ost4 << ost3 << ost2 << ost1;
+	
+	if (ost1 == ost5 && ost2 == ost4) {
+		std::cout << "The number is palindrome";
+	}
+	else {
+		std::cout << "The number is not palindrome";
+	}
+
+
+
+
+
+	//10. Next Date 
+	std::cout << "\nTask 10";
+	std::cout << "\nEnter 2 numbers for the day and month:";
+	int day, month;
+	bool wrongDate = false; 
+	std::cin >> day >> month;
+	
+	if (day < 1 || day > 31 || month < 1 || month > 12) {
+		wrongDate = true;
+	}
+	else {
+		if (month == 2) {
+			if (day > 28) {
+				wrongDate = true;
+			}
+			else if (day == 28) {
+				day = 1; month = month + 1;
+			}
+			else {
+				day = day + 1;
+			}
+		}
+
+		else if (month == 4 || month == 6 || month == 9 || month == 11) {
+			if (day > 30) {
+				wrongDate = true;
+			}
+			else  if (day == 30) {
+				day = 1; month = month + 1;
+			}
+			else {
+				day = day + 1;
+			}
+		}
+		else 
+		{
+			if (day > 31) {
+				wrongDate = true;
+			}
+			else if (day == 31) {
+				day = 1; 
+				if (month == 12) {
+					month = 1; 
+				}
+				else {
+					month = month + 1;
+				}
+			}
+			else {
+				day = day + 1;
+			}
+		}
+	}
+
+	if (wrongDate == false) {
+		std::cout << day << " " << month;
+	}
+	else {
+		std::cout << "invalid date";
+	}
+
+
+	//11. Grades
+std::cout << "\nTask 11";
+std::cout << "\nEnter a number";
+double d;
+std::cin >> d;
+if (d >= 5.50 && d <= 6) {
+	std::cout << "Excellent";
+}
+else if (d >= 4.50 && d <= 5) {
+	std::cout << "Very good";
+}
+else if (d >= 3.50 && d <= 4) {
+	std::cout << "good";
+}
+else if (d >= 2.50 && d <= 3) {
+	std::cout << "average";
+}
+else if (d >= 2 && d < 3) {
+	std::cout << "Poor";
+}
+
+
+//bonus
+std::cout << "\nBonus";
+std::cout << "\nEnter a number";
+int s;
+	std::cin >> s;
+	if (s == 0 || s == 1 || s == 2) {
+     std::cout<<"simple";
+    }
+	else if (s == 3 || s == 4) {
+		std::cout << "ops" << " five";	
+	}
+	else if (s == 5) {
+		std::cout << "five";
+	}
+}
