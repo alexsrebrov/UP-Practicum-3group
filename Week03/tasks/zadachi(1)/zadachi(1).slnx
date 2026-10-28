@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="zadachi(1)/zadachi(1).vcxproj" />
+  <Project Path="zadachi(1)/zadachi(1).vcxproj" Id="e8056c43-505f-47e6-ac80-ce726bba3364" />
 </Solution>

@@ -189,11 +189,131 @@ int main()
 
 
         //TASK 8
+            /*double num1, num2;
+            char operation;
+            std::cout << "Enter the calculation you want to solve: <num><operation (+, -, *, /)><num>"<<std::endl;
+            std::cin >> num1 >> operation >> num2;
+            switch(operation){
+            case '+':
+                std::cout << "= " << num1 + num2;
+                break;
+            case '-':
+                std::cout << "= " << num1 - num2;
+                break;
+            case '*':
+                std::cout << "= " << num1 * num2;
+                break;
+            case '/':
+                if (num2 != 0) {
+                    std::cout << "= " << num1 / num2;
+                }
+                else
+                    std::cout << "Division by 0 is Undefined";
+                break;
+            default:
+                std::cout << "Enter a valid operation";
+            }*/
+
 
         //TASK 9
+
+            /*int num, p1, p2, p4, p5;
+            std::cout << "Enter a 5-digit number"<<std::endl;
+            std::cin >> num;
+            
+            if (num >= 10000 && num <= 99999) {
+                p5 = num % 10;
+                p4 = (num / 10) % 10;
+                p2 = (num / 1000) % 10;
+                p1 = num / 10000;
+
+
+                if (p1 == p5 && p2 == p4) {
+                    std::cout << "Your number is a palindrome, yey";
+                }
+                else
+                    std::cout << "Your number is NOT a palindrome";
+            }
+            else
+                std::cout << "Enter a valid 5-digit number next time";*/
+            
+
+
+
         //TASK 10
+            /*int day, month;
+            std::cout << "Enter day and month:";
+            std::cin >> day>> month;
+
+            switch (month) {
+            case 2:
+                if (day == 28) {
+                    day = 1;
+                    month += 1;
+                }
+                else day += 1;
+                break;
+
+            case 1:
+            case 3:
+            case 5:
+            case 7:
+            case 8:
+            case 10:
+                if (day == 31) {
+                    day = 1;
+                    month += 1;
+                }
+                else day += 1;
+                break;
+
+            case 12:
+                if (day == 31) {
+                    day = 1;
+                    month = 1;
+                }
+                else day += 1;
+                break;
+
+            case 4:
+            case 6:
+            case 9:
+            case 11:
+                if (day == 30) {
+                    day = 1;
+                    month += 1;
+                }
+                else day += 1;
+            }
+
+            std::cout << day << " " << month;*/
+
         //TASK 11
+           /* double grade;
+            std::cin >> grade;
+
+            if (grade >= 5.50 && grade < 6)
+                std::cout << "Excellent";
+            else if (grade >= 4.50 && grade < 5.5)
+                std::cout << "Very Good";
+            else if (grade >= 3.50 && grade < 4.5)
+                std::cout << "Good";
+            else if (grade >= 3 && grade < 3.5)
+                std::cout << "Average";
+            else if (grade >= 2 && grade < 3)
+                std::cout << "Poor";
+            else
+                std::cout << "Invalid";*/
+
         //BONUS TASK
+            int s;
+            std::cin >> s;
+            if (s >= 0 && s <= 2)
+                std::cout << "simple";
+            else if (s == 3 || s == 4)
+                std::cout << "ops five";
+            else if (s == 5)
+                std::cout << "five";
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
