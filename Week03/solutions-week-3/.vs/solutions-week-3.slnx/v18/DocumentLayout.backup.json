@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dimov\\Documents\\SU FMI\\UP\\UP-Practicum-3group\\Week03\\solutions-week-3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C5129F4A-2BA3-4F95-9568-B5560E7A3970}|solutions-week-3\\solutions-week-3.vcxproj|C:\\Users\\dimov\\Documents\\SU FMI\\UP\\UP-Practicum-3group\\Week03\\solutions-week-3\\solutions-week-3\\solutions-week-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C5129F4A-2BA3-4F95-9568-B5560E7A3970}|solutions-week-3\\solutions-week-3.vcxproj|solutionrelative:solutions-week-3\\solutions-week-3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "solutions-week-3.cpp",
+              "DocumentMoniker": "C:\\Users\\dimov\\Documents\\SU FMI\\UP\\UP-Practicum-3group\\Week03\\solutions-week-3\\solutions-week-3\\solutions-week-3.cpp",
+              "RelativeDocumentMoniker": "solutions-week-3\\solutions-week-3.cpp",
+              "ToolTip": "C:\\Users\\dimov\\Documents\\SU FMI\\UP\\UP-Practicum-3group\\Week03\\solutions-week-3\\solutions-week-3\\solutions-week-3.cpp",
+              "RelativeToolTip": "solutions-week-3\\solutions-week-3.cpp",
+              "ViewState": "AgIAAEUBAAAAAAAAAAD4v1IBAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-22T11:40:46.807Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

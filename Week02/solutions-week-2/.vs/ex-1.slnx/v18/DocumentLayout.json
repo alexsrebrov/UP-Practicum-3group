@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dimov\\Documents\\SU FMI\\UP\\UP-Practicum-3group\\Week02\\solutions-week-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C800B55E-6C98-400C-A913-3FA82CC4A834}|ex-1\\ex-1.vcxproj|C:\\Users\\dimov\\Documents\\SU FMI\\UP\\UP-Practicum-3group\\Week02\\solutions-week-2\\ex-1\\ex-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C800B55E-6C98-400C-A913-3FA82CC4A834}|ex-1\\ex-1.vcxproj|solutionrelative:ex-1\\ex-1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ex-1.cpp",
+              "DocumentMoniker": "C:\\Users\\dimov\\Documents\\SU FMI\\UP\\UP-Practicum-3group\\Week02\\solutions-week-2\\ex-1\\ex-1.cpp",
+              "RelativeDocumentMoniker": "ex-1\\ex-1.cpp",
+              "ToolTip": "C:\\Users\\dimov\\Documents\\SU FMI\\UP\\UP-Practicum-3group\\Week02\\solutions-week-2\\ex-1\\ex-1.cpp",
+              "RelativeToolTip": "ex-1\\ex-1.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-10-22T11:28:56.813Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
