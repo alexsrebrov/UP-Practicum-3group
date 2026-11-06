@@ -24,8 +24,8 @@ int main()
     }
 
     // zad 3
-    for(int i = 1; i <= n; i++){
-        if(n % i == 0 && i != 1 && i != n){
+    for(int i = 2; i < n; i++){
+        if(n % i == 0){
             std::cout << "false";
             return 0;
         }
@@ -38,14 +38,11 @@ int main()
     int first = 0;
     int second = 1;
     int next;
-    for(int i = 0; i <= n; i++){
-        if( i<= 1){
-            next = i;
-        }else{
-            next = first + second;
-            first = second;
-            second = next;
-        }
+    for(int i = 1; i < n; i++){
+          next = first + second;
+          first = second;
+          second = next;
+        
     }
     std::cout << next << std::endl;
 
