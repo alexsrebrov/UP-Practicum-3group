@@ -231,6 +231,10 @@ int main()
 	// EX 11:
 	//largestAndSmallestNumbers();
 
+	for (int i = 9; i >= 0; i -= 2) {
+		std::cout << ++i << std::endl;
+	}
+	
     return 0;
 }
 
