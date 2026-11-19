@@ -10,3 +10,4 @@
 - **Week 04**: [Оператори за цикъл](https://github.com/alexsrebrov/UP-Practicum-3group/tree/main/Week04) [[Задачи](https://github.com/alexsrebrov/UP-Practicum-3group/tree/main/Week04/tasks)]
 - **Week 05**: [Фунцкии](https://github.com/alexsrebrov/UP-Practicum-3group/tree/main/Week05) [[Задачи](https://github.com/alexsrebrov/UP-Practicum-3group/tree/main/Week05/tasks)]
 - **Week 06**: [Масиви](https://github.com/alexsrebrov/UP-Practicum-3group/tree/main/Week06) [[Задачи](https://github.com/alexsrebrov/UP-Practicum-3group/tree/main/Week06/tasks)]
+- **Week 07**: [Многомерни масиви](https://github.com/alexsrebrov/UP-Practicum-3group/tree/main/Week07) [[Задачи](https://github.com/alexsrebrov/UP-Practicum-3group/tree/main/Week07/tasks)]
